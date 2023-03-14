@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // 가장 기본적인 MaterialApp
-      title: 'first',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage()
-      // home 에 들어오자마자 실행되는 MyHomePage 만들기
-    );
+        // 가장 기본적인 MaterialApp
+        title: 'first',
+        theme: ThemeData(primarySwatch: Colors.blue),
+        home: MyHomePage()
+        // home 에 들어오자마자 실행되는 MyHomePage 만들기
+        );
   }
 }
 
@@ -41,3 +41,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+// test 입니다
