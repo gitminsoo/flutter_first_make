@@ -27,7 +27,8 @@ class MyCard extends StatelessWidget {
         backgroundColor: Colors.redAccent,
         elevation: 0.0, //앱바가 떠있는 효과를 없앤다
       ),
-      body: const Center( // 가로축의 정 중앙을 나타낸다
+      body: const Center(
+        // 가로축의 정 중앙을 나타낸다
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, // 세로축의 중앙
           children: [
