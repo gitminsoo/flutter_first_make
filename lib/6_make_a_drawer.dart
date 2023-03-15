@@ -53,6 +53,17 @@ class MyPage extends StatelessWidget {
                 backgroundImage: AssetImage('assets/zzang2.jpg'),
                 backgroundColor: Colors.white,
               ),
+              // ignore: prefer_const_literals_to_create_immutables
+              otherAccountsPictures: [
+                CircleAvatar(
+                  backgroundImage: AssetImage('assets/zzang4.jpg'),
+                  backgroundColor: Colors.white,
+                ),
+                // CircleAvatar(
+                //   backgroundImage: AssetImage('assets/zzang4.jpg'),
+                //   backgroundColor: Colors.white,
+                // )
+              ],
               accountName: Text('minsoo'),
               accountEmail: Text('rlaalstn19@inu.ac.kr'),
               onDetailsPressed: () {
@@ -64,6 +75,42 @@ class MyPage extends StatelessWidget {
                     bottomLeft: Radius.circular(20.0),
                     bottomRight: Radius.circular(20.0),
                   )),
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.home,
+                color: Colors.green[300],
+              ),
+              title: Text('Home'),
+              onTap: () {
+                print('click home');
+              },
+              // leading 과 반대로 끝에 있는 속성
+              trailing: Icon(Icons.add),
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.settings,
+                color: Colors.green[300],
+              ),
+              title: Text('Settings'),
+              onTap: () {
+                print('click settings');
+              },
+              // leading 과 반대로 끝에 있는 속성
+              trailing: Icon(Icons.add),
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.question_answer,
+                color: Colors.green[300],
+              ),
+              title: Text('Q&A'),
+              onTap: () {
+                print('click Q&A');
+              },
+              // leading 과 반대로 끝에 있는 속성
+              trailing: Icon(Icons.add),
             ),
           ],
         ),
