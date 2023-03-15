@@ -16,4 +16,11 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+# 이 밑은 들여쓰기가 정말 중요함
+# 내가 여기를 비워서 만들었으니 구글링하면서 확인하기
   uses-material-design: true
+
+  assets:
+    - assets/
+
+
