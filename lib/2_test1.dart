@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_first_make/main.dart';
+
 
 void main() => runApp(MyApp());
 // 실행 후 가장 최초의 앱 MyApp()
