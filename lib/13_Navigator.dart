@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Navigator',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primaryColor: Colors.deepOrange),
+      theme: ThemeData(primarySwatch: Colors.deepOrange),
+      // primarycolor가 아니라 primaryswatch 써야함
       home: FirstPage(),
     );
   }
